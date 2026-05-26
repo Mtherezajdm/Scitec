@@ -1,0 +1,38 @@
+h1 { 
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 12px;;
+}
+
+.primeiro { 
+    color: rgb(150, 47, 64);
+    font-size: 19px;
+}
+
+body {
+    background-color: rgb(255, 237, 216);
+}
+
+div {
+    background-color: rgb(187, 91, 67);
+    width: 200px;
+    height: 180px;
+    margin-left: 22px;
+}
+
+a {
+    color:rgb(83, 26, 36);
+}
+
+h2 {
+    color: rgb(133, 45, 45);
+    font-size: 29px;
+}
+
+strong {
+    color: rgb(114, 11, 11);
+}
+
+p {
+    font-size: 18px;
+}
