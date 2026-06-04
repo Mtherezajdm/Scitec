@@ -12,7 +12,17 @@
 
 <body>
 
- <header>
+    <header>
+        <div>
+            <div class = "aba">
+                    <a href="#menção" class = "um">Menção honrosa</a>
+                    <a href="#hobbies" class = "dois">Hobbies e curiosidades</a>
+                    <a href="#vida pessoal" class = "tres">Minha vida pessoal</a>
+                    <a href="#trajetória" class = "quatro">Minha trajetória acadêmica</a>
+                    <h3 class = "cinco">O que você quer saber primeiro?</h3>
+            </div>
+        </div>
+
         <h1 style="color: rgb(133, 45, 45);">Minha apresentação</h1> <!--Este h1 representa o título de maior tamanho (vai até o h6)-->
 
         <!--classe (.) é mais específico que tag normal, e o id é ainda mais específico (#)-->
@@ -21,15 +31,7 @@
         um dos setores que eu estou participando como Trainee.
         </p> 
 
-        <div>
-            <h3>O que você quer saber primeiro?</h3>
-            <ul>
-                <li><a href="#trajetória">Sobre minha trajetória acadêmica</a></li>
-                <li><a href="#vida pessoal">Sobre minha vida pessoal</a></li>
-                <li><a href="#hobbies">Hobbies e curiosidades</a></li>
-                <li><a href="#menção">Menção honrosa</a></li>
-            </ul>
-            </div>
+
     </header>
 
     <main>
@@ -59,7 +61,7 @@
         </section>
         <section id= "hobbies">
             <h2>Hobbies e curiosidades</h2>
-            <ul>
+            <ul class = "lista">
                 <li>Adoro cantar e tocar violão, o gênero musical que eu mais ouço desde criança é o sertanejo, grande destaque para artistas 
                 como jorge e mateus, bruno e marrone, luan santana e adele (mudando um pouquinho o repertório kakakaakakak);
                 </li>
@@ -75,19 +77,28 @@
         </section>
 
         <section id= "menção">
-        <h2>Menção honrosa:</h2>
-        <p>O cantor Luan Santana faz parte da minha vida desde que eu era uma criança e ele segue me acompanhando 
-            até hoje. Gosto muito de seu trabalho e quis mencioná-lo porque, apesar de parecer um cantor passado 
-            ou clichê, acho suas músicas <strong>maravilhosas</strong>. <br> Há 2 anos tive a oportunidade de ir a um
-            show dele, foi uma experiência incrível! Finalizarei essa homenagem recomendando a seguinte música: 
-            <a href="https://www.youtube.com/watch?v=Vnoe19mSnfs" target="_blank">Boa Memória - Luan Santana</a>
-        </p>
-        <img src="imagem luan santana.avif" alt="">
+            <h2>Menção honrosa:</h2>
+            <div class = "td">
+                <div>
+                    <p class = "luan">O cantor Luan Santana faz parte da minha vida desde que eu era uma criança e ele segue me acompanhando 
+                        até hoje. Gosto muito de seu trabalho e quis mencioná-lo porque, apesar de parecer um cantor passado 
+                        ou clichê, acho suas músicas <strong>maravilhosas</strong>. <br> Há 2 anos tive a oportunidade de ir a um
+                        show dele, foi uma experiência incrível! Finalizarei essa homenagem recomendando a seguinte música: 
+                        <a href="https://www.youtube.com/watch?v=Vnoe19mSnfs" target="_blank">Boa Memória - Luan Santana</a>
+                    </p>
+                </div>
+                <div class = "ftoum">
+                    <img src="imagem luan santana.avif" alt="">
+                </div>
+                <div class = "ftodois">
+                    <img src="segunda img luan santana.png" alt="2a img luan">
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>Desenvolvido por Maria Thereza Jardim</p>
+        <p class = "ultimo">Desenvolvido por Maria Thereza Jardim</p>
     </footer>
 
 </body>
