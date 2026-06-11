@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+h1 { 
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 12px;
+    font-family: "Inter", sans-serif;
+    margin-top: 4rem;
+}
+.cinco {
+    margin-right: 13rem;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+
+.primeiro { 
+    margin: 0;
+    padding: 0;
+    color: rgb(150, 47, 64);
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: rgb(255, 237, 216);
+    margin: .3rem;
+    padding: 0;
+}
+
+.aba {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(187, 91, 67);  
+    height: 5rem;
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 33px;
+    align-items: center;
+}
+.um {
+    margin-right: 2rem;
+}
+
+
+h3 {
+    font-family: "Inter", sans-serif;
+    color: rgb(61, 29, 16);
+}
+
+a {
+    color:rgb(83, 26, 36);
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    color: rgb(133, 45, 45);
+    font-size: 29px;
+}
+
+strong {
+    color: rgb(114, 11, 11);
+}
+
+p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.luan {
+    width: 30rem;
+}
+.ftoum img {
+    height: 16rem;
+    width: 16rem;
+    margin-left: 6rem;
+}
+.ftodois img {
+    height: 16rem;
+    width: 18rem;
+    margin-left: 6rem;
+}
+.td {
+    display: flex;
+    flex-direction:row;
+}
+.lista {
+    font-family: "Inter", sans-serif;
+}
+.ultimo {
+    font-size: .84rem;
+    color:rgb(83, 26, 36);
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .td { /* Cuidado com a indentação! */
+    display: flex;
+    flex-direction:column;
+    }
+    .cinco { /* Cuidado com a indentação! */
+    margin-right: .8rem;
+    font-size: 1.17rem;
+    margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+    .cinco { /* Cuidado com a indentação! */
+    margin-right: .1rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    }
+    .td { /* Cuidado com a indentação! */
+    display: flex;
+    flex-direction:column;
+    }
+}
